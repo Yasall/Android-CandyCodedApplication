@@ -55,7 +55,7 @@ public class _2_StartTheGoogleMapsActivity {
 
         PackageManager mockPackageManager = mock(PackageManager.class);
         ComponentName mockComponentName = mock(ComponentName.class);
-        Intent actualIntent = new Intent(Intent.ACTION_VIEW, mockUri);
+        Intent actualIntent = new  Intent(Intent.ACTION_VIEW, mockUri);
         Intent intent = PowerMockito.spy(actualIntent);
 
         try {
